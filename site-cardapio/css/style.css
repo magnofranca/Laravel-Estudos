@@ -1,0 +1,231 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navprincipal{
+    width:100%;
+    height: 30px;
+    text-align: right;
+    
+}
+.navprincipal ul{
+    background-color: rgb(34, 41, 37);
+    box-sizing: content-box;
+    padding:0 20px;
+    font-size:14px;
+    cursor: pointer;
+
+}
+.navprincipal ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 20px;    
+}
+.navprincipal ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    
+    
+}
+.navprincipal ul li a:hover{
+    color:#FF5733;
+    transition: all .6s;
+}
+.navbar{
+    background-color:#FF5733;
+    font-size: 18px;
+    border-bottom-left-radius:35%;
+    border-bottom-right-radius:35%;
+    
+}
+.nav-item{
+    font-size: 20px;
+    
+    color:white;
+}
+.nav-item a{
+    color:white;
+}
+.nav-item a:hover{
+    color:#33110a;
+    transition: all .6s;
+
+}
+#parceiros{
+    background-color: #FF5733;
+    height: 200px;
+}
+.parceiros{
+    border-top-left-radius:15%;
+    border-top-right-radius:15%;
+    height: 200px;
+    
+}
+.quem-somos{
+    background-color:black;
+    color:black;
+    box-shadow: 10px solid black;
+    
+}
+/*.corpo{
+    
+   position: relative;
+    
+}
+
+#propaganda{
+    position: absolute;
+    top:150px;
+    right:500px;
+    background-color: white;
+    border-radius: 5px;
+    transform: translateX(335px);
+}*/
+#propaganda{
+    background-image: url("../img/premium.jpg");
+}
+.propaganda{
+    width: 400px;
+    padding: 50px;
+    
+    }
+.textprincipal{
+    color:white;
+    margin-top: 150px;
+    margin-left: 50px;
+
+}
+
+.md-form label{
+    font-weight: bold;
+    opacity: 0.8;
+    float:left;
+    padding: 3px;
+    
+}
+.cadastrarbutton{
+    margin-top: 25px;
+}
+
+
+.margin{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.parceiros{
+    background-color:ghostwhite;
+    
+}
+
+
+.servicos{
+    background-color: aliceblue;
+}
+
+.bg-color{
+    background-color: black;
+    color: aliceblue;
+}
+
+#tabela-clientes{
+    padding: 10px;
+}
+.title-table{
+    
+    background-color: #FF5733;
+    color: aliceblue;
+    height: 40px;
+    text-align: center;
+}
+.title-cli{
+    color:antiquewhite;
+    text-align:center;
+    margin-top: 5px;
+}
+
+/*Menu- Cardapio*/
+.menu-cardapio{
+    background-color:black;
+    margin-top: -5px;
+    border-top-left-radius:35%;
+    border-top-right-radius:35%;
+    
+}
+.nav-cardapio ul li{
+    display:inline-block;
+    list-style: none;
+    padding:20px;
+}
+.nav-cardapio ul li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.nav-cardapio ul li a:hover{
+    color:lightsteelblue;
+    transition:all .6s;
+}
+/*Fim Menu Cardapio*/
+
+/*Inicio Cards*/
+  
+.corpo-cardapio{
+    background-color:gainsboro;
+    padding: 30px;
+    margin-top:-15px;
+    
+    
+}
+.cardnew{
+    padding: 8px;
+    background-color:white;
+    cursor: pointer;
+    display: inline-block;
+    
+ 
+}
+
+.bgcardapio{
+    background-size: 500px;  
+    text-shadow: darkgoldenrod;
+    font-size: 16px;
+    background-image: url('https://images.pexels.com/photos/2983099/pexels-photo-2983099.jpeg?cs=srgb&dl=pexels-jonathan-borba-2983099.jpg&fm=jpg');
+}
+.title-cardapio{
+    color:darkgoldenrod;
+    padding: 5px;
+}
+.card-principal{
+    padding: 20px;
+    text-align: center;
+}
+
+/*Fim Cards*/
+
+/*Checkout*/
+.checkout{
+    background-color: aliceblue;
+    padding: 10px;
+    border-color: 2px red;
+}
+.microcheck{
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+/*Fim Checkout*/
+
+/*Carrinho de Comprar*/
+.opcionais{
+    padding: 5px;
+}
+.text-area{
+    height: 200px;
+}
+/*Fim Carrinho de Compras*/

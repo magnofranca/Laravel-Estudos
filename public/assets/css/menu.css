@@ -1,0 +1,55 @@
+.menuprime{
+    background-color: rgb(34, 41, 37);
+}
+.navprincipal{
+    width:100%;
+    height: 30px;
+    text-align: right;
+    
+}
+.navprincipal ul{
+    background-color: rgb(34, 41, 37);
+    box-sizing: content-box;
+    padding:0 20px;
+    font-size:14px;
+    cursor: pointer;
+
+}
+.navprincipal ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 20px;    
+}
+.navprincipal ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    
+    
+}
+
+.navprincipal ul li a:hover{
+    color:#FF5733;
+    transition: all .6s;
+}
+.navbar{
+    background-color:#FF5733;
+    font-size: 18px;
+    border-bottom-left-radius:35%;
+    border-bottom-right-radius:35%;
+    
+}
+.nav-item{
+    font-size: 20px;
+    
+    color:white;
+}
+.nav-item a{
+    color:white;
+}
+.nav-item a:hover{
+    color:#33110a;
+    transition: all .6s;
+
+}
